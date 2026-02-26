@@ -10,7 +10,7 @@ public class Giai {
 		a = sc.nextFloat();
 		b = sc.nextFloat();
 		if(a == 0) System.out.println("Phuong trinh nay co vo so nghiem");
-		else System.out.println("Phuong trinh co nghiem duy nhat x = -" + b + " \\ " + a + " = " + -(b/a));
+		else System.out.println("Phuong trinh co nghiem duy nhat x = -" + b + " \\ " + a + "= " + -(b/a));
 	}
 
 }
