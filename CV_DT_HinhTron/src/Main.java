@@ -9,6 +9,7 @@ public class Main {
 		double cv = tron.chuviHT(tron.bankinh), dt = tron.dientichHT(tron.bankinh);
 		System.out.println("Chu vi hinh tron la " + cv);
 		System.out.println("Dien tich hinh tron la " + dt);
+		sc.close();
 	}
 
 }
