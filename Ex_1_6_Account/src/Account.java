@@ -13,7 +13,7 @@ public class Account {
         this.name = name;
         this.balance = balance;
     }
-    public String getId() 
+    public String getID() 
     {
         return id;
     }
