@@ -5,13 +5,42 @@ public class TaiKhoan {
 	private double soDu;
 	public TaiKhoan(String soTaiKhoan, String tenChuTaiKhoan, double soDu)
 	{
+		super();
 		this.soTaiKhoan = soTaiKhoan;
 		this.tenChuTaiKhoan = tenChuTaiKhoan;
 		this.soDu = soDu;
 	}
+	public TaiKhoan()
+	{
+		super();
+	}
+	public String getsoTaiKhoan()
+	{
+		return this.soTaiKhoan;
+	}
+	public String gettenChuTaiKhoan()
+	{
+		return this.tenChuTaiKhoan;
+	}
+	public double getsoDu()
+	{
+		return this.soDu;
+	}
+	public void setsoTaiKhoan(String stkmoi)
+	{
+		this.soTaiKhoan = stkmoi;
+	}
+	public void settenChuTaiKhoan(String tenChutkmoi)
+	{
+		this.tenChuTaiKhoan = tenChutkmoi;
+	}
 	public void guiTien(double tienGui)
 	{
 		this.soDu += tienGui;
+	}
+	public void setsoDu(double sdm)
+	{
+		this.soDu = sdm;
 	}
 	public void rutTien(double tienRut)
 	{
