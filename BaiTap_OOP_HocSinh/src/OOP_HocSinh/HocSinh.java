@@ -38,6 +38,7 @@ public class HocSinh {
 	{
 		this.lopHS = lopHS;
 	}
+	@Override
 	public String toString()
 	{
 		return ("HS " + tenHS + " " + tuoiHS + " tuoi" + " dang hoc lop " + lopHS);
