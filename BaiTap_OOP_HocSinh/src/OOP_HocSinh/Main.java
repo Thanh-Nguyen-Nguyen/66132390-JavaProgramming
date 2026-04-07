@@ -29,12 +29,14 @@ public class Main {
 		// cau 3a
 		int n = sc.nextInt();
 		ArrayList<HocSinh> ds = new ArrayList<HocSinh>();
-		HocSinh hs = new HocSinh();
 		String ten, lop;
 		short tuoi;
 		for(int i = 0; i < n; i++)
 		{
+			HocSinh hs = new HocSinh();
+			System.out.println("Moi nhap hoc sinh thu " + (i + 1));
 			ten = sc.nextLine();
+			sc.nextLine();
 			lop = sc.nextLine();
 			tuoi = sc.nextShort();
 			hs.setTenHS(ten);
@@ -48,6 +50,7 @@ public class Main {
 			System.out.println(a.toString());
 		}
 		//cau 4a
+		HocSinh hs = new HocSinh();
 		ten = sc.nextLine();
 		lop = sc.nextLine();
 		tuoi = sc.nextShort();
@@ -64,7 +67,7 @@ public class Main {
 		for(int i = 0; i < n; i++)
 		{
 			HocSinh hstim = ds.get(i);
-			if(hstim.getTenHS() == "Hoa")
+			if(hstim.getTenHS().equals("Hoa"))
 			{
 				ds.remove(hstim);
 				break;
