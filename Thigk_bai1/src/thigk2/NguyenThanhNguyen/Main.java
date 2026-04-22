@@ -13,14 +13,16 @@ public class Main {
 		System.out.print("y1 = ");
 		y1 = sc.nextDouble();
 		System.out.println("Nhap toan do goc duoi phai :");
-		System.out.print("y1 = ");
+		System.out.print("x1 = ");
 		x2 = sc.nextDouble();
 		System.out.print("y2 = ");
 		y2 = sc.nextDouble();
 		Hcn Hcn1 = new Hcn(x1, y1, x2, y2);
 		sc.close();
 		double cv = Hcn1.CV();
-		
+		double dt = Hcn1.DT();
+		System.out.println("chu vi hcn = " + cv);
+		System.out.println("dien tich hcn = " + dt);
 	}
 
 }

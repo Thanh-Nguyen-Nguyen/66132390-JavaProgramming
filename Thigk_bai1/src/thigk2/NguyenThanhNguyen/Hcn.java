@@ -1,5 +1,5 @@
 package thigk2.NguyenThanhNguyen;
-
+import java.lang.Math;
 public class Hcn {
 	private double x1, y1, x2, y2;
 	public Hcn()
@@ -23,11 +23,11 @@ public class Hcn {
 	public void setY2(double y2) {this.y2 = y2;}
 	public double CV()
 	{
-		return 2 * (x2 - x1 + y2 - y1); 
+		return 2 * (Math.abs(x1 - x2) + Math.abs(y2 - y1)); 
 	}
 	public double DT()
 	{
-		return (x2 - x1) * (y2 - y1); 
+		return Math.abs(x2 - x1) * Math.abs(y2 - y1); 
 	}
 	public String toString()
 	{
