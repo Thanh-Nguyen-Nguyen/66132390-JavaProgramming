@@ -5,6 +5,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//a
 		Scanner sc = new Scanner(System.in);
 		double x1, y1, x2, y2;
 		System.out.println("Nhap toan do goc tren trai :");
@@ -19,6 +20,7 @@ public class Main {
 		y2 = sc.nextDouble();
 		Hcn Hcn1 = new Hcn(x1, y1, x2, y2);
 		sc.close();
+		//b
 		double cv = Hcn1.CV();
 		double dt = Hcn1.DT();
 		System.out.println("chu vi hcn = " + cv);
