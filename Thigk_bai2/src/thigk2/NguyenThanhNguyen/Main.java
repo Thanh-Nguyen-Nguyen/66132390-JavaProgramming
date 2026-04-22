@@ -5,7 +5,7 @@ import java.util.Scanner;
      * Ý tưởng:
      * 0. Tạo class OOP_QLSP với các phương thức và thuộc tính như đề, thêm 1 tt giá
      * 1. Tạo danh sách sản phẩm (ArrayList)
-     * 2. Hard code 3 sản phẩm và thêm vào danh sách
+     * 2. Hard csode 3 sản phẩm và thêm vào danh sách
      * 3. In danh sách sản phẩm
      * 4. Nhập thêm 1 sản phẩm từ bàn phím và thêm vào danh sách
      * 5. Lọc và in ra các sản phẩm có loại "thực phẩm chức năng"
