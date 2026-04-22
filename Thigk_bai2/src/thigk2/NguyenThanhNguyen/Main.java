@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 /*
      * Ý tưởng:
+     * 0. Tạo class OOP_QLSP với các phương thức và thuộc tính như đề, thêm 1 tt giá
      * 1. Tạo danh sách sản phẩm (ArrayList)
      * 2. Hard code 3 sản phẩm và thêm vào danh sách
      * 3. In danh sách sản phẩm
@@ -24,20 +25,15 @@ public class Main {
     // b2
     // Nhập thêm 1 sản phẩm
     Scanner sc = new Scanner(System.in);
-
     System.out.println("\nNhập sản phẩm mới:");
     System.out.print("Mã SP: ");
     String ma = sc.nextLine();
-
     System.out.print("Tên SP: ");
     String ten = sc.nextLine();
-
     System.out.print("Loại SP: ");
     String loai = sc.nextLine();
-
     System.out.print("Giá: ");
     double gia = Double.parseDouble(sc.nextLine());
-    
     OOP_QLSP spMoi = new OOP_QLSP(ma, ten, loai, gia);
     danhSach.add(spMoi);
     // b3
